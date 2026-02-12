@@ -1,6 +1,6 @@
 # LangChain RAG 问答系统
 
-本项目使用 LangChain 构建了一个基于学生手册的问答系统，支持云端 OpenAI API 和本地 Ollama 两种部署方式。系统通过 Chroma 向量数据库进行语义检索，并集成了 LangSmith 进行调用链追踪。
+本项目使用 LangChain 构建了一个基于学生手册的问答系统，支持云端 OpenAI API 和本地 Ollama 两种部署方式。系统通过 Chroma 向量数据库进行语义检索，并集成了 LangSmith 进行调用链追踪。有用请帮忙点个Star哦！
 
 
 ## 功能特性
@@ -76,7 +76,7 @@ cp .env.example .env
 ## 配置说明
 
 ### 模式一：云端 API（推荐用于生产环境）
-可使用[DMX API](https://www.dmxapi.cn/register?aff=dR0o7)注册并获取OpenAI兼容API Key。
+可使用[DMX API](https://www.dmxapi.cn/register?aff=dR0o)注册并获取OpenAI兼容API Key。
 ```bash
 # OpenAI API 配置
 OPENAI_API_KEY=sk-your-api-key-here
@@ -310,12 +310,10 @@ lcrag_studentqa/
 | `API_PORT` | API 服务端口 | 8000 |
 | `OLLAMA_HOSTS` | Ollama 主机列表 | `["localhost:11434", "127.0.0.1:11434"]` |
 
-## 技术支持
+## 交流合作
+欢迎交流合作@B站[TrueTechLabs](https://space.bilibili.com/25095014)
 
-如有问题，请提交 Issue 或联系开发团队。
+
 
 ## 许可证
-
 MIT License
-
-[![Star History Chart](https://api.star-history.com/svg?repos=TrueTechLabs/lcrag_studentqa&type=Date)](https://star-history.com/#your-username/lcrag_studentqa&Date)
